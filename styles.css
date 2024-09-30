@@ -187,6 +187,10 @@ body {
 
 
 @media screen and (min-width: 63.813rem) { 
+  main {
+    padding: 10rem 0;
+  }
+
   .container {
     display: grid;
     grid-template-columns: repeat(4, minmax(200px, 1fr));
