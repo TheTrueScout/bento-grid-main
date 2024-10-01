@@ -47,6 +47,20 @@ h1 {
   line-height: 2.9rem;
 }
 
+h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: var(--DMS-Medium);
+  font-size: 1.9rem;
+  line-height: 1.9rem;
+}
+
 p {
   font-family: 'DM Sans', sans-serif;
   font-weight: var(--DMS-Medium);
@@ -133,17 +147,6 @@ body {
   margin: 1rem 0;
 }
 
-.h1--small {
-  font-size: 1.4rem;
-  line-height: 1.4rem;
-  font-weight: 600;
-}
-
-.h1--medium {
-  font-size: 1.9rem;
-  line-height: 1.9rem;
-}
-
 
 /* general styles */
 .container__card:nth-of-type(1) img {
@@ -207,11 +210,11 @@ body {
     max-width: unset;
   }
 
-  .h1--small {
+  h2 {
     font-size: 1.7rem;
   }
 
-  .h1--medium {
+  h3 {
     font-size: 2.3rem;
     line-height: 2rem;
     letter-spacing: -0.12rem;
@@ -246,7 +249,7 @@ body {
       max-width: unset;
     }
 
-    h1 {
+    h2 {
       line-height: 1.6rem;
     }
   }
@@ -274,7 +277,7 @@ body {
       max-width: unset;
     }
 
-    h1 {
+    h2 {
       width: 11rem;
       letter-spacing: -0.15rem;
     }
@@ -340,7 +343,7 @@ body {
       width: 100%;
     }
 
-    h1 {
+    h3 {
       width: 90%;
     }
   }
