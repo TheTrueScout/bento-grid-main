@@ -270,6 +270,7 @@ body {
     overflow: hidden;
     text-align: left;
     padding-top: 3rem;
+    padding-right: 1rem;
     
 
     img {
@@ -278,14 +279,13 @@ body {
     }
 
     h2 {
-      width: 11rem;
+      max-width: 11rem;
       letter-spacing: -0.15rem;
     }
 
     
 
     p {
-      width: 12rem;
       line-height: 1rem;
     }
   }
@@ -317,7 +317,8 @@ body {
     }
 
     img {
-      width: 80%;
+      width: unset;
+      max-width: 80%;
     }
   }
 
@@ -344,7 +345,7 @@ body {
     }
 
     h3 {
-      width: 90%;
+      max-width: 90%;
     }
   }
 
